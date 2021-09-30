@@ -43,6 +43,7 @@ class AccountLoginFragment : AbstractPhoneFragment<AssistantAccountLoginFragment
 
     override fun getLayoutId(): Int = R.layout.assistant_account_login_fragment
 
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
