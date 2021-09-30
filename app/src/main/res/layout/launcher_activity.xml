@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey_color">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/linphone_logo_tinted"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            android:visibility="gone"
+            android:src="@drawable/linphone_app_name_logo" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="30sp"
+            android:layout_marginTop="-10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#36957B"
+            android:text="@string/minecom" />
+
+        <TextView
+            android:textColor="?attr/accentColor"
+            android:textSize="28sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:text="@string/app_description" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:indeterminateTint="@color/primary_color"
+        android:layout_marginBottom="20dp" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@color/primary_color" />
+
+</FrameLayout>
